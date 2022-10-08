@@ -1,44 +1,33 @@
-header {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 body, html {
-    height: 100%;
+    height: 50%;
+    padding: 0px;
     font-family: 'Courier New', Courier, monospace; 
+    color: #000000;
 }
 
-header{
-  text-align: left;
-  color: #ff0505;
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-h2{
-  text-align: left;
-  color: #ff0505;
-}
- .para-exsternal{
-  text-align: left;
-  color: #000000;
-
- }
-  
- table{
-  color: #000000;
- }
-  p{
-    color: #ce4646;
-  }
-
-.para-exsternal {
-  color: #000000;
-  background-color: #9c46ce;
+.nav li {
+  float: left;
 }
 
-.para {
-  color: rgb(0, 0, 0);
-  margin-bottom: 5px;
-  border: 2px solid #9c46ce;
-  padding: 20px;
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+
+
